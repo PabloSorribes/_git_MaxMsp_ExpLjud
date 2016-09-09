@@ -38,6 +38,75 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1031.0, 463.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1025.0, 423.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 1026.0, 503.0, 100.0, 40.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 6, "obj-40", "gain~", "list", 91, 10.0, 6, "obj-41", "gain~", "list", 91, 10.0, 5, "obj-15", "number", "int", 3, 5, "obj-21", "toggle", "int", 0, 5, "obj-23", "number", "int", 3000 ]
+						}
+ ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1134.0, 32.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 933.0, 40.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "timer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -409,24 +478,24 @@
 						"clips" : [ 							{
 								"filename" : "cherokee.aif",
 								"filekind" : "audiofile",
-								"selection" : [ 0.392473, 0.473118 ],
+								"selection" : [ 0.129032, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"originaltempo" : [ 120.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
 									"pitchshiftcent" : [ 0 ]
 								}
 
@@ -434,50 +503,49 @@
 , 							{
 								"filename" : "duduk.aif",
 								"filekind" : "audiofile",
-								"selection" : [ 0.27957, 0.311828 ],
+								"selection" : [ 0.370968, 0.096774 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"originaltempo" : [ 120.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
 									"pitchshiftcent" : [ 0 ]
 								}
 
 							}
 , 							{
-								"filename" : "vector2.256.rom.aif",
+								"filename" : "duduk.aif",
 								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.44086, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"originaltempo" : [ 120.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"pitchshiftcent" : [ 0 ]
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -489,7 +557,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 77.0, 382.666656, 241.0, 213.0 ],
+					"patching_rect" : [ 77.0, 381.666656, 241.0, 213.0 ],
 					"style" : ""
 				}
 
@@ -546,36 +614,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u481000018" ],
 									"dim" : [ 1, 1 ],
-									"time" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"fps" : [ 0.0 ],
-									"autostart" : [ 1 ],
-									"framereport" : [ 0 ],
-									"texture_name" : [ "u809000016" ],
-									"output_texture" : [ 0 ],
-									"drawto" : [ "" ],
-									"looppoints" : [ 0, 0 ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
-									"automatic" : [ 0 ],
-									"moviefile" : [ "" ],
-									"rate" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"duration" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"timescale" : [ 600 ],
-									"loopstart" : [ 0 ],
-									"position" : [ 0.0 ],
-									"adapt" : [ 1 ],
 									"usesrcrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"time" : [ 0 ],
+									"framereport" : [ 0 ],
+									"framecount" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"timescale" : [ 600 ],
+									"fps" : [ 0.0 ],
+									"drawto" : [ "" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"engine" : [ "avf" ],
-									"interp" : [ 0 ]
+									"vol" : [ 1.0 ],
+									"texture_name" : [ "u809000016" ],
+									"cache_size" : [ 0.1 ],
+									"moviefile" : [ "" ],
+									"unique" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopstart" : [ 0 ],
+									"autostart" : [ 1 ],
+									"looppoints" : [ 0, 0 ],
+									"rate" : [ 1.0 ],
+									"loopend" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"output_texture" : [ 0 ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"duration" : [ 0 ]
 								}
 
 							}
@@ -587,36 +655,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u481000018" ],
 									"dim" : [ 1, 1 ],
-									"time" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"fps" : [ 0.0 ],
-									"autostart" : [ 1 ],
-									"framereport" : [ 0 ],
-									"texture_name" : [ "u809000016" ],
-									"output_texture" : [ 0 ],
-									"drawto" : [ "" ],
-									"looppoints" : [ 0, 0 ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
-									"automatic" : [ 0 ],
-									"moviefile" : [ "" ],
-									"rate" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"duration" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"timescale" : [ 600 ],
-									"loopstart" : [ 0 ],
-									"position" : [ 0.0 ],
-									"adapt" : [ 1 ],
 									"usesrcrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"time" : [ 0 ],
+									"framereport" : [ 0 ],
+									"framecount" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"timescale" : [ 600 ],
+									"fps" : [ 0.0 ],
+									"drawto" : [ "" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"engine" : [ "avf" ],
-									"interp" : [ 0 ]
+									"vol" : [ 1.0 ],
+									"texture_name" : [ "u809000016" ],
+									"cache_size" : [ 0.1 ],
+									"moviefile" : [ "" ],
+									"unique" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopstart" : [ 0 ],
+									"autostart" : [ 1 ],
+									"looppoints" : [ 0, 0 ],
+									"rate" : [ 1.0 ],
+									"loopend" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"output_texture" : [ 0 ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"duration" : [ 0 ]
 								}
 
 							}
@@ -628,36 +696,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u481000018" ],
 									"dim" : [ 1, 1 ],
-									"time" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"fps" : [ 0.0 ],
-									"autostart" : [ 1 ],
-									"framereport" : [ 0 ],
-									"texture_name" : [ "u809000016" ],
-									"output_texture" : [ 0 ],
-									"drawto" : [ "" ],
-									"looppoints" : [ 0, 0 ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
-									"automatic" : [ 0 ],
-									"moviefile" : [ "" ],
-									"rate" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"duration" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"timescale" : [ 600 ],
-									"loopstart" : [ 0 ],
-									"position" : [ 0.0 ],
-									"adapt" : [ 1 ],
 									"usesrcrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"time" : [ 0 ],
+									"framereport" : [ 0 ],
+									"framecount" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"timescale" : [ 600 ],
+									"fps" : [ 0.0 ],
+									"drawto" : [ "" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"engine" : [ "avf" ],
-									"interp" : [ 0 ]
+									"vol" : [ 1.0 ],
+									"texture_name" : [ "u809000016" ],
+									"cache_size" : [ 0.1 ],
+									"moviefile" : [ "" ],
+									"unique" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopstart" : [ 0 ],
+									"autostart" : [ 1 ],
+									"looppoints" : [ 0, 0 ],
+									"rate" : [ 1.0 ],
+									"loopend" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"output_texture" : [ 0 ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"duration" : [ 0 ]
 								}
 
 							}
@@ -703,6 +771,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
@@ -766,11 +843,41 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 76.0, 225.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 669.0, 84.0, 410.0, 99.0 ],
 					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 184.0, 298.0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1137.5, 260.0, 321.0, 300.0 ],
+					"source" : [ "obj-14", 3 ]
 				}
 
 			}
@@ -804,20 +911,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 1084.5, 83.0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -863,6 +979,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -939,12 +1064,6 @@
 , 			{
 				"name" : "duduk.aif",
 				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vector2.256.rom.aif",
-				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
