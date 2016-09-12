@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1024.0, 627.0 ],
+		"rect" : [ 42.0, 85.0, 1298.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,102 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 739.0, 155.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 740.0, 120.0, 35.0, 22.0 ],
+					"style" : "",
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-25",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 354.0, 403.0, 50.0, 23.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 354.0, 431.0, 89.0, 23.0 ],
+					"style" : "",
+					"text" : "savemode $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"items" : [ "no", "autosave", "or", "prompt", ",", "prompt", "to", "save", "when", "object", "is", "freed", "(default)", ",", "attempt", "autosave", "when", "patch", "is", "saved", "else", "prompt", ",", "attempt", "autosave", "when", "patch", "is", "closed", "else", "prompt" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 354.0, 374.5, 324.75, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "umenu",
+							"parameter_shortname" : "umenu",
+							"parameter_type" : 3,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0 ],
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"style" : "",
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 656.25, -26.0, 92.0, 22.0 ],
+					"style" : "",
+					"text" : "storagewindow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-124",
 					"linecount" : 2,
@@ -115,7 +211,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 747.5, 342.0, 50.0, 23.0 ],
-					"presentation_rect" : [ 746.25, 342.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -130,7 +225,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 747.5, 214.5, 94.0, 23.0 ],
-					"presentation_rect" : [ 748.0, 214.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "1.1, 4.4 20000"
 				}
@@ -177,7 +271,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.25, 155.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 594.25, 155.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "store 4"
 				}
@@ -191,7 +284,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.75, 155.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 702.75, 155.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "4"
 				}
@@ -205,7 +297,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.25, 120.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 712.25, 88.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "store 3"
 				}
@@ -219,7 +310,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.75, 120.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 712.25, 117.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "3"
 				}
@@ -233,7 +323,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.25, 86.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 711.25, 258.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "store 2"
 				}
@@ -247,7 +336,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.75, 86.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 674.25, 258.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -328,7 +416,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 444.0, 1440.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 444.0, 1443.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -350,7 +437,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ -72.0, 1431.0, 134.0, 116.0 ],
-					"presentation_rect" : [ 404.0, 1455.0, 0.0, 0.0 ],
 					"varname" : "bp.Smooth Delay[1]",
 					"viewvisibility" : 1
 				}
@@ -402,6 +488,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "_Saves_pattrStoragePaalo_01.json",
 					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -409,14 +496,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 656.25, 219.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 8, 44, 362, 172 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u514002118"
+					"varname" : "u701004932"
 				}
 
 			}
@@ -427,7 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.25, 51.0, 47.0, 22.0 ],
+					"patching_rect" : [ 909.25, 45.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "store 1"
 				}
@@ -440,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 793.0, 51.0, 29.5, 22.0 ],
+					"patching_rect" : [ 862.0, 45.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -453,7 +540,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 793.0, 12.0, 61.0, 22.0 ],
+					"patching_rect" : [ 862.0, 6.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -498,12 +585,13 @@
 								}
 
 							}
- ]
+ ],
+						"umenu" : [ 1 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u616002163"
+					"varname" : "u632005261"
 				}
 
 			}
@@ -514,10 +602,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 793.0, 91.0, 100.0, 40.0 ],
+					"patching_rect" : [ 862.0, 85.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-45", "number", "int", 79, 5, "obj-46", "number", "int", 40, 5, "obj-55", "number", "int", 0, 5, "obj-58", "number", "int", 0, 5, "obj-62", "number", "int", 0, 5, "obj-61", "number", "int", 0, 5, "obj-21", "number", "int", 0, 5, "obj-86", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 0.0, 5, "obj-91", "toggle", "int", 1, 5, "obj-15", "number", "int", 0, 5, "obj-12", "number", "int", 74, 5, "obj-16", "number", "int", 300, 5, "obj-26", "number", "int", 3, 5, "obj-49", "number", "int", 40, 5, "obj-51", "flonum", "float", 0.4, 5, "obj-92", "number", "int", 2, 5, "obj-95", "flonum", "float", 0.0, 5, "obj-108", "flonum", "float", 4.0, 5, "obj-111", "flonum", "float", 2.0, 5, "obj-112", "slider", "float", 4.0 ]
+							"data" : [ 5, "obj-45", "number", "int", 65, 5, "obj-46", "number", "int", 75, 5, "obj-55", "number", "int", 0, 5, "obj-58", "number", "int", 0, 5, "obj-62", "number", "int", 0, 5, "obj-61", "number", "int", 0, 5, "obj-21", "number", "int", 0, 5, "obj-86", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 0.0, 5, "obj-91", "toggle", "int", 0, 5, "obj-15", "number", "int", 0, 5, "obj-12", "number", "int", 74, 5, "obj-16", "number", "int", 400, 5, "obj-26", "number", "int", 4, 5, "obj-49", "number", "int", 0, 5, "obj-51", "flonum", "float", 0.4, 5, "obj-92", "number", "int", 2, 5, "obj-95", "flonum", "float", 0.0, 5, "obj-108", "flonum", "float", 4.0, 5, "obj-111", "flonum", "float", 2.0, 5, "obj-112", "slider", "float", 4.0, 5, "obj-76", "umenu", "int", 1, 5, "obj-25", "number", "int", 1 ]
 						}
  ],
 					"style" : ""
@@ -647,6 +735,82 @@
 										"filepath" : "~/Max 7/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "ff2b7a7cdc4a7f8fb18106c79750a4c6"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Audio Rate Pan.amxd",
+									"origin" : "Audio Rate Pan.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Audio Rate Pan.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Audio Rate Pan/Audio Rate Pan.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"coarse-freq" : 57.283466,
+												"fine-freq" : 0.984252,
+												"mod-depth" : 25.19685,
+												"modrate-freq" : 6.850394,
+												"pan-depth" : 48.031498,
+												"phase-coarse" : 9.84252,
+												"phase-fine" : 0.5,
+												"rate-sel" : 0.0,
+												"sync-mult" : 64.753937
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Audio Rate Pan.amxd",
+										"filename" : "Audio Rate Pan.amxd_20160912.maxsnap",
+										"filepath" : "~/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "9cd79c27b5a94c8044379a32b0411ed4"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Audio Rate Pan.amxd[1]",
+									"origin" : "Audio Rate Pan.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Audio Rate Pan.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Audio Rate Pan/Audio Rate Pan.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"coarse-freq" : 57.283466,
+												"fine-freq" : 0.984252,
+												"mod-depth" : 25.19685,
+												"modrate-freq" : 6.850394,
+												"pan-depth" : 48.031498,
+												"phase-coarse" : 9.84252,
+												"phase-fine" : 0.5,
+												"rate-sel" : 0.0,
+												"sync-mult" : 64.753937
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Audio Rate Pan.amxd[1]",
+										"filename" : "Audio Rate Pan.amxd[1].maxsnap",
+										"filepath" : "~/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "9667bcae00e01f94c42ad34ee146898e"
 									}
 
 								}
@@ -2055,6 +2219,15 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-102", 0 ]
 				}
 
@@ -2272,6 +2445,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2294,6 +2476,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 363.5, 428.0, 363.5, 428.0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -2610,6 +2802,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2684,6 +2885,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 363.5, 398.0, 363.5, 398.0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2724,6 +2935,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-82", 0 ]
 				}
 
 			}
@@ -2836,25 +3056,26 @@
 			"obj-60::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
 			"obj-71::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-71::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-66::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-73::obj-80" : [ "Response", "Response", 0 ],
+			"obj-66::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-71::obj-11" : [ "PWM", "PWM", 0 ],
 			"obj-81::obj-12" : [ "Mute[4]", "Mute", 0 ],
 			"obj-74::obj-1" : [ "Attack", "Attack", 0 ],
 			"obj-75::obj-52" : [ "Level", "Level", 0 ],
-			"obj-79::obj-137" : [ "Feedback", "Feedback", 0 ],
 			"obj-79::obj-56" : [ "Offset[1]", "Offset", 0 ],
+			"obj-79::obj-137" : [ "Feedback", "Feedback", 0 ],
 			"obj-66::obj-100" : [ "score", "score", 0 ],
 			"obj-59" : [ "amxd~", "amxd~", 0 ],
 			"obj-73::obj-55" : [ "Bypass", "Bypass", 0 ],
 			"obj-60::obj-69" : [ "1voctled", "1voctled", 0 ],
 			"obj-79::obj-42" : [ "Invert", "Invert", 0 ],
 			"obj-75::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-74::obj-31" : [ "Release", "Release", 0 ],
 			"obj-74::obj-20" : [ "Mute[1]", "Mute", 0 ],
+			"obj-74::obj-31" : [ "Release", "Release", 0 ],
 			"obj-79::obj-118" : [ "Mix", "Mix", 0 ],
 			"obj-13::obj-5" : [ "vst~", "vst~", 0 ],
 			"obj-66::obj-48" : [ "InputLED", "InputLED", 0 ],
+			"obj-76" : [ "umenu", "umenu", 0 ],
 			"obj-66::obj-92" : [ "kslider", "kslider", 0 ],
 			"obj-71::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-71::obj-107" : [ "Linear", "Linear", 0 ],
@@ -2934,6 +3155,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Audio Rate Pan.amxd_20160912.maxsnap",
+				"bootpath" : "~/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Audio Rate Pan.amxd[1].maxsnap",
+				"bootpath" : "~/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Audio Rate Pan.amxd",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2947,6 +3180,12 @@
 , 			{
 				"name" : "pastebang.maxpat",
 				"bootpath" : "C74:/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_Saves_pattrStoragePaalo_01.json",
+				"bootpath" : "D:/_Docs/Högskola/HIS/2016-2017/Musik_Experimentella Ljudvärldar (ME523G)/_git_MaxMsp_ExpLjud/Uppgifter i Max/uppgift 6-9",
 				"type" : "JSON",
 				"implicit" : 1
 			}
