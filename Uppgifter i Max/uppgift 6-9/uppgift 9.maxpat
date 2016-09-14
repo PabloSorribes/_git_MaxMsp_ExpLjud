@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1298.0, 627.0 ],
+		"rect" : [ 34.0, 77.0, 1024.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,180 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-141",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -128.666687, 881.666687, 130.0, 23.0 ],
+					"style" : "",
+					"text" : "print midi @popup 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 236.159973, 741.539978, 49.0, 22.0 ],
+					"style" : "",
+					"text" : "unpack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-139",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
+					"patching_rect" : [ 122.0, 741.539978, 92.5, 22.0 ],
+					"style" : "",
+					"text" : "midiparse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-136",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -250.333344, 889.5, 109.0, 25.0 ],
+					"style" : "",
+					"text" : "turn on audio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-137",
+					"local" : 1,
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ -207.666672, 843.5, 44.0, 44.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-135",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -168.666672, 732.0, 70.0, 23.0 ],
+					"style" : "",
+					"text" : "plug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-122",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ -207.666672, 786.0, 151.999893, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[1]",
+							"parameter_shortname" : "vst~[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"annotation_name" : "",
+						"parameter_enable" : 1
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Massive.dll",
+							"plugindisplayname" : "Massive",
+							"pluginsavedname" : "D:/VST Plugins/Native Instruments_Cracked/64bit/Massive.dll",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "2998.CMlaKA....fQPMDZ....A3TZMEF...P......tTQYARSgM2bEYlYkMFce4TY2c0axwFY.........rfd5s........P.....nMWZtE..........Pgv4pjhhTEDkeIZ1FBxzRaI.........DMURNYG...P.....HA.........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....A....D....................PChUVgA....L.bP.......A....D....................v.....v..L..C......................D....P..........PzTI4TY....np........P.....nMWZtE..........3WuIC2OLSfThEFatMXTf.uF.........DMURNUF...P.....z..........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....B....D......G....D....PB....w.fK.PC.t..L.3B.x.PN.HC.A....L..........DMURNwF....7A........D.....ZyklaA.........PvrM1JGjKlHQK36aYdEKIn.G.........QSkjSrA...D.....F.........PzTI4T.....A....D....P.....B....D..........X....rD.EAPV..B.MAPX.LG.yAPQ.XF.lAPY.LF.zAvW.3D.kAvc.bE.uAfb.vF.jAvb.bA....T.DF.hA.a.7F.f.vT.7F.xAfb.jF.hAPY.LG.f.fP.TF.xAfa.fF.gAfb.PF......................................................D....P.....G....zD.gAvb.LG.oAfc.TF...........vA....G....vE..AvX.7F.rAva.HG.A.....C.Q....vE..A.Y.TF.1APZ.LF.kA.c.jG.vAPY.XF.rAPX.bF.yAP.....v.vB....bA.P.LG.uAPc.3F.jA.c.jG.vAPY.D.....L.b.....W..D.zAPY.zF.vAva.D.....L.X.....W..D.1APY.HG.rAPA....w.fK.bC.t.vL.X.....W..D.1APY.HG.sAPA....w.fK.bC.t.vL.b.....W..D.1APZ.LG.oAfX.D.....L.D..........B....PzTI4Td....nA........P.....nMWZtE..........uwFFzuE3cADo9QSVKWUmxfC.........DMURNkG...P.....X..........QSkjSA....D....P.....A....D..........A.........P.....DMURNQG...PjG........D.....ZyklaA.........vIKn1+xxKOJAJtD5nJHnpwgc.........QSkjSzA...D.....RG........PzTI4zb....A....fA.........DMURNE....P.....A....D....P.0eA..7vA..f.0eA.fA..A.RACf1bo4FPG.D.PLUvsHasM3EPLlHoOWElJyCF.QAH.L.QSkjS.MB3GL.P..zF.zFHHDPnW.BAf..Pi.9.SAQZIWa31oDtNE3is+kKZwaswA5I.eCPu.9EmAzH.jBn2.PAfLV.0ZAHD.B.CP2bxAGv6.tE.LvO...ffav..MAP..7Ef8.Hi.D..MAX..3CA.nC.c.PC.D..c.PC.dA.D.vk.dBS.9C.L.fN6C..NDPy.x...L3D7f.MyLSfM....NAGBftfSvH...X2.zofOw.fe...sB3C..PO.9.C.9I.DPJ9.xp.zCvC...fSvRfbU..FL3JLKv6B9BG.xLfSv.fa..A.XDgbA.LCxa.N....NA...Bf9..ABtByE.f+HzPB..AAH1Z.s..B.hCB.H...1.BMEH...fffCPC.Ll..DHLBz..xCPzD.O..3AfexBfSBaf6.KfA.HQBD..UIf..tCr.dCFCtCr.F.fiPV.MNPC.z7.A.PK.z.fOvC.P.PX.J..D.Pb.H.fo..A.R.fmA..Gz.UUUJAAjm.A..+CB..c.vI..Bfj.3.fB..DhiAL...B.Hm.NAn.D.fHAHS.PB.o.vaA..fygLAn..f..3CHCfNFfm9BhEfB.HZAxV.r.PMHpLfC.LfOwu.z.Hm.N.n...fyAiA3..f..3CvH3YHO.O.RLfSfL.9K.MBNB+B.DfbBX+Fzm.OF3S7K.R.xKfC.J...3b7a.S..H..7V...3bHS.T..H..9.x.3uAWGP.Dheg7G.U.jBA+GPCCD..hSA.AL...RPAtR.r1CfS.D.fbCH3.D.ff.HI.PH.o.vd.j9.JCvd.D.fbBHn.D.ff.HI.fH.o.vx...fDM3O3Y.i..H.HzH.xB3CHIvKAD.fPEHUAD.ff.HI..I.o.fx.9GRBPIfjB3.HC...tDRFfI..B..uEvG...fKALAfB.f..3afB.o.xIfGPJfuQL.nBHu.NGn.vJfbRfb.D.fnPXn.L.AcOvtEDvg+Pi.vAH2HFI.iCv..LO..P3RXP.c..H..d.n..vgCw7A3A.f..3Afh3QvQ.e..H..9FnD.H..B.fuAJ.nAHm...B4K3avRZr.HJ..7HpD.v.E9C1jJa.A..ATVyfVCA.9K....3PTS.DB.H..nWfWAJATH.f..PnXv5QYHP.iEqfCQT.XHHm.FJ...3VDU.GB.H..TT.BP3QDX.m..H..HJnwF.+F9CBDfM..B..hBP..bTkpnH+E.f+HzRB.P.9ChAfhB3CTe.71K3AvCHgHRvAfC.f..3APA3VDEv..LLBrppphF3.c.H8AF.fXEHn.Pf.s.vl...fbE...F.HZKP..RIfXB.BBjB.ZBfmBdAEEvf..B.Aw.fhT.PBC..PJD3EHR.+A.H..nG.cX.p3C3E3Q..B.P..7GA...fe.fA3G.f+...YGv.Hzx.C.3CbAv..zb.M....N.eE.f+XTCfLAvvAN6PD1JgP.3jH.H..zM.M.3GA.XSANILBBKf.PP+KdDCAfVfDB3R3A.dARGfKgG.HFHc.tDd.fYfzA3R3A.pARGf4wAr8SABAkFaKLfvB..i9E.tARBf4Af.HLi.6A.xARBfKgG.XGHc.tDd.fdfzAX..7bfW..gWAM.rEPrDdDSAvWfWgG.LF3U3A.mAdEd.vZ.6Q3MPC.uArG.BP3GPS.yA.H..dD4BvcfzA3R3A.6ARGfAP3qPC.bATNfGgdA.F.f..3Q3A.jARGfKgG.fFHc.tDd..afzAXdDdCz..bfzAXd.H.ge.MAPG.f..3QnI.3ARGfKgG.vGHc.F.guBM.zEP4.dD5APXfWgG.TF3U3A.oAdEdHUgfsW3MPC.wARGf4Af.D9AzDPc..B.fGQt.jGHc.tDd.PefzAX.DdCz.zU.M.f..9A5Aic.6wQ6F.f+BLQmX6I2FfP..B.fGQO.XDHc.F.tK...f8I7F.DCAdAFAfN.QRJLCbR.c.PC.H.fevjnMDfd.9BSFvP..B..5AP..9A8DvQ..J.fawj.rCXl.Bkfc.fQAdDUE.P..B..5A3KLY.DA.H..nG.A.3GLY.HA.n..tESB42f+wj.DDPTAHcfuvjATD.f..fd.D.fevjAjD.fB.3VLYZ3Ct.Sd1VARJySFDrfywBFoBP..9.UB5ShBGP.HRdhnG.r.jBfuAJ.zB3efB.t.9Gn.vK.gxXNADmBABPG.Du.v.HW.9FSB.LfbB3bfB.w.xIfyAJ.HCHm.NGn.vLfbB3APKv7BDvB...vOxy.DAHG.D.CrlagIFfU.H.qET.a..f.LvXz4VZRoOPyG2rf.fnVFBmtC.vBLWZ0cNABZvYvQ2XYQUShk2BMHVYEF..........A.....P..........."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Massive",
+									"origin" : "Massive.dll",
+									"type" : "VST",
+									"subtype" : "Instrument",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Massive.dll",
+										"plugindisplayname" : "Massive",
+										"pluginsavedname" : "D:/VST Plugins/Native Instruments_Cracked/64bit/Massive.dll",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "2998.CMlaKA....fQPMDZ....A3TZMEF...P......tTQYARSgM2bEYlYkMFce4TY2c0axwFY.........rfd5s........P.....nMWZtE..........Pgv4pjhhTEDkeIZ1FBxzRaI.........DMURNYG...P.....HA.........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....A....D....................PChUVgA....L.bP.......A....D....................v.....v..L..C......................D....P..........PzTI4TY....np........P.....nMWZtE..........3WuIC2OLSfThEFatMXTf.uF.........DMURNUF...P.....z..........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....B....D......G....D....PB....w.fK.PC.t..L.3B.x.PN.HC.A....L..........DMURNwF....7A........D.....ZyklaA.........PvrM1JGjKlHQK36aYdEKIn.G.........QSkjSrA...D.....F.........PzTI4T.....A....D....P.....B....D..........X....rD.EAPV..B.MAPX.LG.yAPQ.XF.lAPY.LF.zAvW.3D.kAvc.bE.uAfb.vF.jAvb.bA....T.DF.hA.a.7F.f.vT.7F.xAfb.jF.hAPY.LG.f.fP.TF.xAfa.fF.gAfb.PF......................................................D....P.....G....zD.gAvb.LG.oAfc.TF...........vA....G....vE..AvX.7F.rAva.HG.A.....C.Q....vE..A.Y.TF.1APZ.LF.kA.c.jG.vAPY.XF.rAPX.bF.yAP.....v.vB....bA.P.LG.uAPc.3F.jA.c.jG.vAPY.D.....L.b.....W..D.zAPY.zF.vAva.D.....L.X.....W..D.1APY.HG.rAPA....w.fK.bC.t.vL.X.....W..D.1APY.HG.sAPA....w.fK.bC.t.vL.b.....W..D.1APZ.LG.oAfX.D.....L.D..........B....PzTI4Td....nA........P.....nMWZtE..........uwFFzuE3cADo9QSVKWUmxfC.........DMURNkG...P.....X..........QSkjSA....D....P.....A....D..........A.........P.....DMURNQG...PjG........D.....ZyklaA.........vIKn1+xxKOJAJtD5nJHnpwgc.........QSkjSzA...D.....RG........PzTI4zb....A....fA.........DMURNE....P.....A....D....P.0eA..7vA..f.0eA.fA..A.RACf1bo4FPG.D.PLUvsHasM3EPLlHoOWElJyCF.QAH.L.QSkjS.MB3GL.P..zF.zFHHDPnW.BAf..Pi.9.SAQZIWa31oDtNE3is+kKZwaswA5I.eCPu.9EmAzH.jBn2.PAfLV.0ZAHD.B.CP2bxAGv6.tE.LvO...ffav..MAP..7Ef8.Hi.D..MAX..3CA.nC.c.PC.D..c.PC.dA.D.vk.dBS.9C.L.fN6C..NDPy.x...L3D7f.MyLSfM....NAGBftfSvH...X2.zofOw.fe...sB3C..PO.9.C.9I.DPJ9.xp.zCvC...fSvRfbU..FL3JLKv6B9BG.xLfSv.fa..A.XDgbA.LCxa.N....NA...Bf9..ABtByE.f+HzPB..AAH1Z.s..B.hCB.H...1.BMEH...fffCPC.Ll..DHLBz..xCPzD.O..3AfexBfSBaf6.KfA.HQBD..UIf..tCr.dCFCtCr.F.fiPV.MNPC.z7.A.PK.z.fOvC.P.PX.J..D.Pb.H.fo..A.R.fmA..Gz.UUUJAAjm.A..+CB..c.vI..Bfj.3.fB..DhiAL...B.Hm.NAn.D.fHAHS.PB.o.vaA..fygLAn..f..3CHCfNFfm9BhEfB.HZAxV.r.PMHpLfC.LfOwu.z.Hm.N.n...fyAiA3..f..3CvH3YHO.O.RLfSfL.9K.MBNB+B.DfbBX+Fzm.OF3S7K.R.xKfC.J...3b7a.S..H..7V...3bHS.T..H..9.x.3uAWGP.Dheg7G.U.jBA+GPCCD..hSA.AL...RPAtR.r1CfS.D.fbCH3.D.ff.HI.PH.o.vd.j9.JCvd.D.fbBHn.D.ff.HI.fH.o.vx...fDM3O3Y.i..H.HzH.xB3CHIvKAD.fPEHUAD.ff.HI..I.o.fx.9GRBPIfjB3.HC...tDRFfI..B..uEvG...fKALAfB.f..3afB.o.xIfGPJfuQL.nBHu.NGn.vJfbRfb.D.fnPXn.L.AcOvtEDvg+Pi.vAH2HFI.iCv..LO..P3RXP.c..H..d.n..vgCw7A3A.f..3Afh3QvQ.e..H..9FnD.H..B.fuAJ.nAHm...B4K3avRZr.HJ..7HpD.v.E9C1jJa.A..ATVyfVCA.9K....3PTS.DB.H..nWfWAJATH.f..PnXv5QYHP.iEqfCQT.XHHm.FJ...3VDU.GB.H..TT.BP3QDX.m..H..HJnwF.+F9CBDfM..B..hBP..bTkpnH+E.f+HzRB.P.9ChAfhB3CTe.71K3AvCHgHRvAfC.f..3APA3VDEv..LLBrppphF3.c.H8AF.fXEHn.Pf.s.vl...fbE...F.HZKP..RIfXB.BBjB.ZBfmBdAEEvf..B.Aw.fhT.PBC..PJD3EHR.+A.H..nG.cX.p3C3E3Q..B.P..7GA...fe.fA3G.f+...YGv.Hzx.C.3CbAv..zb.M....N.eE.f+XTCfLAvvAN6PD1JgP.3jH.H..zM.M.3GA.XSANILBBKf.PP+KdDCAfVfDB3R3A.dARGfKgG.HFHc.tDd.fYfzA3R3A.pARGf4wAr8SABAkFaKLfvB..i9E.tARBf4Af.HLi.6A.xARBfKgG.XGHc.tDd.fdfzAX..7bfW..gWAM.rEPrDdDSAvWfWgG.LF3U3A.mAdEd.vZ.6Q3MPC.uArG.BP3GPS.yA.H..dD4BvcfzA3R3A.6ARGfAP3qPC.bATNfGgdA.F.f..3Q3A.jARGfKgG.fFHc.tDd..afzAXdDdCz..bfzAXd.H.ge.MAPG.f..3QnI.3ARGfKgG.vGHc.F.guBM.zEP4.dD5APXfWgG.TF3U3A.oAdEdHUgfsW3MPC.wARGf4Af.D9AzDPc..B.fGQt.jGHc.tDd.PefzAX.DdCz.zU.M.f..9A5Aic.6wQ6F.f+BLQmX6I2FfP..B.fGQO.XDHc.F.tK...f8I7F.DCAdAFAfN.QRJLCbR.c.PC.H.fevjnMDfd.9BSFvP..B..5AP..9A8DvQ..J.fawj.rCXl.Bkfc.fQAdDUE.P..B..5A3KLY.DA.H..nG.A.3GLY.HA.n..tESB42f+wj.DDPTAHcfuvjATD.f..fd.D.fevjAjD.fB.3VLYZ3Ct.Sd1VARJySFDrfywBFoBP..9.UB5ShBGP.HRdhnG.r.jBfuAJ.zB3efB.t.9Gn.vK.gxXNADmBABPG.Du.v.HW.9FSB.LfbB3bfB.w.xIfyAJ.HCHm.NGn.vLfbB3APKv7BDvB...vOxy.DAHG.D.CrlagIFfU.H.qET.a..f.LvXz4VZRoOPyG2rf.fnVFBmtC.vBLWZ0cNABZvYvQ2XYQUShk2BMHVYEF..........A.....P..........."
+									}
+,
+									"fileref" : 									{
+										"name" : "Massive",
+										"filename" : "Massive.maxsnap",
+										"filepath" : "~/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "d986e597ecb22781fdaabc7698cbf7dc"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "vst~",
+					"varname" : "vst~",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-129",
 					"maxclass" : "comment",
@@ -216,7 +390,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 579.159119, 621.079956, 99.590904, 262.920013 ],
+					"patching_rect" : [ 376.492432, 615.0, 99.590904, 262.920013 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 48.0, 50.696968, 133.840012 ],
 					"style" : ""
@@ -453,7 +627,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 612.25, 12.0, 28.0, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -872,7 +1046,29 @@
 
 							}
  ],
-						"umenu" : [ 1 ]
+						"umenu" : [ 1 ],
+						"vst~" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "Massive",
+								"origin" : "Massive.dll",
+								"type" : "VST",
+								"subtype" : "Instrument",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "Massive.dll",
+									"plugindisplayname" : "Massive",
+									"pluginsavedname" : "D:/VST Plugins/Native Instruments_Cracked/64bit/Massive.dll",
+									"pluginsaveduniqueid" : 0,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "2998.CMlaKA....fQPMDZ....A3TZMEF...P......tTQYARSgM2bEYlYkMFce4TY2c0axwFY.........rfd5s........P.....nMWZtE..........Pgv4pjhhTEDkeIZ1FBxzRaI.........DMURNYG...P.....HA.........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....A....D....................PChUVgA....L.bP.......A....D....................v.....v..L..C......................D....P..........PzTI4TY....np........P.....nMWZtE..........3WuIC2OLSfThEFatMXTf.uF.........DMURNUF...P.....z..........QSkjSpA...D.....F.........PzTI4T.....A....D....P.....B....D......G....D....PB....w.fK.PC.t..L.3B.x.PN.HC.A....L..........DMURNwF....7A........D.....ZyklaA.........PvrM1JGjKlHQK36aYdEKIn.G.........QSkjSrA...D.....F.........PzTI4T.....A....D....P.....B....D..........X....rD.EAPV..B.MAPX.LG.yAPQ.XF.lAPY.LF.zAvW.3D.kAvc.bE.uAfb.vF.jAvb.bA....T.DF.hA.a.7F.f.vT.7F.xAfb.jF.hAPY.LG.f.fP.TF.xAfa.fF.gAfb.PF......................................................D....P.....G....zD.gAvb.LG.oAfc.TF...........vA....G....vE..AvX.7F.rAva.HG.A.....C.Q....vE..A.Y.TF.1APZ.LF.kA.c.jG.vAPY.XF.rAPX.bF.yAP.....v.vB....bA.P.LG.uAPc.3F.jA.c.jG.vAPY.D.....L.b.....W..D.zAPY.zF.vAva.D.....L.X.....W..D.1APY.HG.rAPA....w.fK.bC.t.vL.X.....W..D.1APY.HG.sAPA....w.fK.bC.t.vL.b.....W..D.1APZ.LG.oAfX.D.....L.D..........B....PzTI4Td....nA........P.....nMWZtE..........uwFFzuE3cADo9QSVKWUmxfC.........DMURNkG...P.....X..........QSkjSA....D....P.....A....D..........A.........P.....DMURNQG...PjG........D.....ZyklaA.........vIKn1+xxKOJAJtD5nJHnpwgc.........QSkjSzA...D.....RG........PzTI4zb....A....fA.........DMURNE....P.....A....D....P.0eA..7vA..f.0eA.fA..A.RACf1bo4FPG.D.PLUvsHasM3EPLlHoOWElJyCF.QAH.L.QSkjS.MB3GL.P..zF.zFHHDPnW.BAf..Pi.9.SAQZIWa31oDtNE3is+kKZwaswA5I.eCPu.9EmAzH.jBn2.PAfLV.0ZAHD.B.CP2bxAGv6.tE.LvO...ffav..MAP..7Ef8.Hi.D..MAX..3CA.nC.c.PC.D..c.PC.dA.D.vk.dBS.9C.L.fN6C..NDPy.x...L3D7f.MyLSfM....NAGBftfSvH...X2.zofOw.fe...sB3C..PO.9.C.9I.DPJ9.xp.zCvC...fSvRfbU..FL3JLKv6B9BG.xLfSv.fa..A.XDgbA.LCxa.N....NA...Bf9..ABtByE.f+HzPB..AAH1Z.s..B.hCB.H...1.BMEH...fffCPC.Ll..DHLBz..xCPzD.O..3AfexBfSBaf6.KfA.HQBD..UIf..tCr.dCFCtCr.F.fiPV.MNPC.z7.A.PK.z.fOvC.P.PX.J..D.Pb.H.fo..A.R.fmA..Gz.UUUJAAjm.A..+CB..c.vI..Bfj.3.fB..DhiAL...B.Hm.NAn.D.fHAHS.PB.o.vaA..fygLAn..f..3CHCfNFfm9BhEfB.HZAxV.r.PMHpLfC.LfOwu.z.Hm.N.n...fyAiA3..f..3CvH3YHO.O.RLfSfL.9K.MBNB+B.DfbBX+Fzm.OF3S7K.R.xKfC.J...3b7a.S..H..7V...3bHS.T..H..9.x.3uAWGP.Dheg7G.U.jBA+GPCCD..hSA.AL...RPAtR.r1CfS.D.fbCH3.D.ff.HI.PH.o.vd.j9.JCvd.D.fbBHn.D.ff.HI.fH.o.vx...fDM3O3Y.i..H.HzH.xB3CHIvKAD.fPEHUAD.ff.HI..I.o.fx.9GRBPIfjB3.HC...tDRFfI..B..uEvG...fKALAfB.f..3afB.o.xIfGPJfuQL.nBHu.NGn.vJfbRfb.D.fnPXn.L.AcOvtEDvg+Pi.vAH2HFI.iCv..LO..P3RXP.c..H..d.n..vgCw7A3A.f..3Afh3QvQ.e..H..9FnD.H..B.fuAJ.nAHm...B4K3avRZr.HJ..7HpD.v.E9C1jJa.A..ATVyfVCA.9K....3PTS.DB.H..nWfWAJATH.f..PnXv5QYHP.iEqfCQT.XHHm.FJ...3VDU.GB.H..TT.BP3QDX.m..H..HJnwF.+F9CBDfM..B..hBP..bTkpnH+E.f+HzRB.P.9ChAfhB3CTe.71K3AvCHgHRvAfC.f..3APA3VDEv..LLBrppphF3.c.H8AF.fXEHn.Pf.s.vl...fbE...F.HZKP..RIfXB.BBjB.ZBfmBdAEEvf..B.Aw.fhT.PBC..PJD3EHR.+A.H..nG.cX.p3C3E3Q..B.P..7GA...fe.fA3G.f+...YGv.Hzx.C.3CbAv..zb.M....N.eE.f+XTCfLAvvAN6PD1JgP.3jH.H..zM.M.3GA.XSANILBBKf.PP+KdDCAfVfDB3R3A.dARGfKgG.HFHc.tDd.fYfzA3R3A.pARGf4wAr8SABAkFaKLfvB..i9E.tARBf4Af.HLi.6A.xARBfKgG.XGHc.tDd.fdfzAX..7bfW..gWAM.rEPrDdDSAvWfWgG.LF3U3A.mAdEd.vZ.6Q3MPC.uArG.BP3GPS.yA.H..dD4BvcfzA3R3A.6ARGfAP3qPC.bATNfGgdA.F.f..3Q3A.jARGfKgG.fFHc.tDd..afzAXdDdCz..bfzAXd.H.ge.MAPG.f..3QnI.3ARGfKgG.vGHc.F.guBM.zEP4.dD5APXfWgG.TF3U3A.oAdEdHUgfsW3MPC.wARGf4Af.D9AzDPc..B.fGQt.jGHc.tDd.PefzAX.DdCz.zU.M.f..9A5Aic.6wQ6F.f+BLQmX6I2FfP..B.fGQO.XDHc.F.tK...f8I7F.DCAdAFAfN.QRJLCbR.c.PC.H.fevjnMDfd.9BSFvP..B..5AP..9A8DvQ..J.fawj.rCXl.Bkfc.fQAdDUE.P..B..5A3KLY.DA.H..nG.A.3GLY.HA.n..tESB42f+wj.DDPTAHcfuvjATD.f..fd.D.fevjAjD.fB.3VLYZ3Ct.Sd1VARJySFDrfywBFoBP..9.UB5ShBGP.HRdhnG.r.jBfuAJ.zB3efB.t.9Gn.vK.gxXNADmBABPG.Du.v.HW.9FSB.LfbB3bfB.w.xIfyAJ.HCHm.NGn.vLfbB3APKv7BDvB...vOxy.DAHG.D.CrlagIFfU.H.qET.a..f.LvXz4VZRoOPyG2rf.fnVFBmtC.vBLWZ0cNABZvYvQ2XYQUShk2BMHVYEF..........A.....P..........."
+								}
+
+							}
+ ]
 					}
 ,
 					"style" : "",
@@ -914,7 +1110,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 333.5, 767.0, 217.0, 117.0 ],
+					"patching_rect" : [ 122.0, 615.0, 217.0, 117.0 ],
 					"varname" : "bp.Quantizer-MIDI",
 					"viewvisibility" : 1
 				}
@@ -1228,7 +1424,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 94.0, 774.0, 163.0, 116.0 ],
+					"patching_rect" : [ 94.0, 788.666687, 163.0, 116.0 ],
 					"varname" : "bp.MIDI to Signal",
 					"viewvisibility" : 1
 				}
@@ -1411,7 +1607,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 395.0, 555.0, 36.0, 22.0 ],
+					"patching_rect" : [ -151.666672, 447.999969, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "write"
 				}
@@ -1426,7 +1622,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 555.0, 35.0, 23.0 ],
+					"patching_rect" : [ -199.666672, 447.999969, 35.0, 23.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -1724,7 +1920,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 259.0, 555.0, 58.0, 23.0 ],
+					"patching_rect" : [ -287.666687, 447.999969, 58.0, 23.0 ],
 					"style" : "",
 					"text" : "record"
 				}
@@ -1801,7 +1997,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 674.0, 49.0, 22.0 ],
+					"patching_rect" : [ -271.666687, 567.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "midiout"
 				}
@@ -2018,7 +2214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 600.0, 150.0, 20.0 ],
+					"patching_rect" : [ -208.666672, 492.999969, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Dubbel klick subpatchern"
 				}
@@ -2400,7 +2596,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 259.0, 640.0, 77.0, 22.0 ],
+					"patching_rect" : [ -287.666687, 533.0, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2687,6 +2883,69 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-137", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-122", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-122", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-135", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-139", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-139", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2866,7 +3125,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 404.5, 628.0, 268.5, 628.0 ],
+					"midpoints" : [ -142.166672, 520.999969, -278.166687, 520.999969 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2918,7 +3177,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 1 ],
+					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
@@ -2927,10 +3186,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-122", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 0 ]
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -3082,7 +3341,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
+					"destination" : [ "obj-139", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-66", 0 ]
@@ -3382,6 +3641,7 @@
 			"obj-73::obj-55" : [ "Bypass", "Bypass", 0 ],
 			"obj-71::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-80::obj-20" : [ "Time", "Time", 0 ],
+			"obj-122" : [ "vst~[1]", "vst~[1]", 0 ],
 			"obj-79::obj-7" : [ "Bypass[1]", "Bypass", 0 ],
 			"obj-71::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-74::obj-32" : [ "Sustain", "Sustain", 0 ],
@@ -3532,8 +3792,51 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Massive.maxsnap",
+				"bootpath" : "~/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "ksliderWhite",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjBlue-1",
+				"default" : 				{
+					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjGreen-1",
+				"default" : 				{
+					"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "numberGold-1",
+				"default" : 				{
+					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
