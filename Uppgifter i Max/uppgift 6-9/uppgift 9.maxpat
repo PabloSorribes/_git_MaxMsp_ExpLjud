@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1298.0, 627.0 ],
+		"rect" : [ 42.0, 85.0, 1298.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -453,7 +453,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 612.25, 12.0, 28.0, 22.0 ],
 					"style" : "",
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -789,7 +789,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u282000498"
+					"varname" : "u412000506"
 				}
 
 			}
@@ -877,7 +877,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u275000762"
+					"varname" : "u666000771"
 				}
 
 			}
@@ -3364,53 +3364,53 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-48" : [ "InputLED", "InputLED", 0 ],
-			"obj-71::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-79::obj-56" : [ "Offset[1]", "Offset", 0 ],
-			"obj-71::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-75::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-66::obj-100" : [ "score", "score", 0 ],
-			"obj-74::obj-30" : [ "Legato", "Legato", 0 ],
-			"obj-81::obj-20" : [ "Time[1]", "Time", 0 ],
-			"obj-71::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-75::obj-22" : [ "Mute[2]", "Mute", 0 ],
-			"obj-73::obj-80" : [ "Response", "Response", 0 ],
-			"obj-79::obj-137" : [ "Feedback", "Feedback", 0 ],
-			"obj-79::obj-7" : [ "Bypass[1]", "Bypass", 0 ],
-			"obj-74::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-66::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-66::obj-29" : [ "OutputLED", "OutputLED", 0 ],
-			"obj-60::obj-28" : [ "Bend", "Bend", 0 ],
-			"obj-59" : [ "amxd~", "amxd~", 0 ],
-			"obj-71::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-76" : [ "umenu", "umenu", 0 ],
-			"obj-13::obj-5" : [ "vst~", "vst~", 0 ],
-			"obj-71::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-66::obj-92" : [ "kslider", "kslider", 0 ],
-			"obj-71::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-79::obj-14" : [ "CV2[1]", "CV2", 0 ],
-			"obj-79::obj-42" : [ "Invert", "Invert", 0 ],
-			"obj-80::obj-20" : [ "Time", "Time", 0 ],
-			"obj-75::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
 			"obj-74::obj-31" : [ "Release", "Release", 0 ],
-			"obj-81::obj-12" : [ "Mute[4]", "Mute", 0 ],
-			"obj-74::obj-20" : [ "Mute[1]", "Mute", 0 ],
-			"obj-71::obj-36" : [ "PW", "PW", 0 ],
-			"obj-66::obj-12" : [ "bypass", "bypass", 0 ],
-			"obj-75::obj-52" : [ "Level", "Level", 0 ],
-			"obj-71::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-66::obj-100" : [ "score", "score", 0 ],
+			"obj-60::obj-69" : [ "1voctled", "1voctled", 0 ],
+			"obj-75::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-79::obj-42" : [ "Invert", "Invert", 0 ],
+			"obj-59" : [ "amxd~", "amxd~", 0 ],
+			"obj-76" : [ "umenu", "umenu", 0 ],
+			"obj-66::obj-92" : [ "kslider", "kslider", 0 ],
 			"obj-79::obj-55" : [ "FreqMode[1]", "FreqMode", 0 ],
+			"obj-73::obj-80" : [ "Response", "Response", 0 ],
 			"obj-74::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-71::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-60::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
-			"obj-73::obj-33" : [ "Quadrants", "Quadrants", 0 ],
-			"obj-71::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-79::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-79::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-80::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-71::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-66::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-81::obj-20" : [ "Time[1]", "Time", 0 ],
+			"obj-13::obj-5" : [ "vst~", "vst~", 0 ],
 			"obj-73::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-71::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-80::obj-20" : [ "Time", "Time", 0 ],
+			"obj-79::obj-7" : [ "Bypass[1]", "Bypass", 0 ],
+			"obj-71::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-74::obj-32" : [ "Sustain", "Sustain", 0 ],
-			"obj-60::obj-69" : [ "1voctled", "1voctled", 0 ]
+			"obj-66::obj-48" : [ "InputLED", "InputLED", 0 ],
+			"obj-60::obj-28" : [ "Bend", "Bend", 0 ],
+			"obj-71::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-75::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-79::obj-118" : [ "Mix", "Mix", 0 ],
+			"obj-66::obj-12" : [ "bypass", "bypass", 0 ],
+			"obj-71::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-79::obj-14" : [ "CV2[1]", "CV2", 0 ],
+			"obj-74::obj-30" : [ "Legato", "Legato", 0 ],
+			"obj-75::obj-52" : [ "Level", "Level", 0 ],
+			"obj-80::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-71::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-74::obj-20" : [ "Mute[1]", "Mute", 0 ],
+			"obj-75::obj-22" : [ "Mute[2]", "Mute", 0 ],
+			"obj-71::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-71::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-79::obj-56" : [ "Offset[1]", "Offset", 0 ],
+			"obj-73::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-74::obj-1" : [ "Attack", "Attack", 0 ],
+			"obj-66::obj-29" : [ "OutputLED", "OutputLED", 0 ],
+			"obj-71::obj-36" : [ "PW", "PW", 0 ],
+			"obj-71::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-81::obj-12" : [ "Mute[4]", "Mute", 0 ],
+			"obj-60::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
+			"obj-79::obj-137" : [ "Feedback", "Feedback", 0 ],
+			"obj-79::obj-51" : [ "Freq[1]", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
