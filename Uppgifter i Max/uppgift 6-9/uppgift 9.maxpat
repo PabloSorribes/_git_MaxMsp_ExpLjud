@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-129",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 802.0, 828.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Choose notes from a list"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-127",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 802.0, 853.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "zl.scramble"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-123",
 					"linecount" : 9,
 					"maxclass" : "comment",
