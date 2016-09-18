@@ -1,0 +1,187 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u209001125",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Audio Rate Pan.amxd",
+							"origin" : "Audio Rate Pan.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Audio Rate Pan.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Audio Rate Pan/Audio Rate Pan.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"coarse-freq" : 57.283466,
+										"fine-freq" : 0.984252,
+										"mod-depth" : 25.19685,
+										"modrate-freq" : 6.850394,
+										"pan-depth" : 48.031498,
+										"phase-coarse" : 9.84252,
+										"phase-fine" : 0.5,
+										"rate-sel" : 0.0,
+										"sync-mult" : 64.753937
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"umenu" : [ 1 ],
+					"vst~" : [  ],
+					"bp.MIDI to Signal::Bend" : [ 2.0 ],
+					"bp.MIDI to Signal::ModWheelActivityLED" : [ 0.0 ],
+					"bp.MIDI to Signal::NotePriority" : [ "Last Note Priority" ],
+					"bp.MIDI to Signal::Triggering" : [ "Retrigger" ],
+					"bp.MIDI to Signal::live.text" : [ 0.0 ],
+					"bp.MIDI to Signal::note" : [ 0.583333 ],
+					"bp.MIDI to Signal::gate" : [ 0 ],
+					"bp.MIDI to Signal::velocity" : [ 1.587302 ],
+					"bp.MIDI to Signal::mod" : [ 5.0 ],
+					"bp.Oscillator::CV2" : [ 0.0 ],
+					"bp.Oscillator::CV3" : [ 0.0 ],
+					"bp.Oscillator::Freq" : [ 261.625565 ],
+					"bp.Oscillator::FreqMode" : [ 1.0 ],
+					"bp.Oscillator::Linear" : [ 0.0 ],
+					"bp.Oscillator::Mute" : [ 0.0 ],
+					"bp.Oscillator::Offset[2]" : [ 0.0 ],
+					"bp.Oscillator::PW" : [ 30.0 ],
+					"bp.Oscillator::PWM" : [ 59.84252 ],
+					"bp.Oscillator::Waveform" : [ 0.0 ],
+					"bp.VCA::Bypass" : [ 0.0 ],
+					"bp.VCA::Quadrants" : [ 0.0 ],
+					"bp.VCA::Response" : [ 0.0 ],
+					"bp.ADSR::Attack" : [ 200.0 ],
+					"bp.ADSR::Decay" : [ 50.0 ],
+					"bp.ADSR::Legato" : [ 0.0 ],
+					"bp.ADSR::Mute" : [ 0.0 ],
+					"bp.ADSR::Release" : [ 200.0 ],
+					"bp.ADSR::Sustain" : [ 35.0 ],
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ],
+					"bp.Quantizer-MIDI::PitchActivityLED[1]" : [ 0.0 ],
+					"bp.Quantizer-MIDI::PitchActivityLED[2]" : [ 0.0 ],
+					"bp.Quantizer-MIDI::bypass" : [ 0.0 ],
+					"bp.Quantizer-MIDI::kslider" : [ 0, 68, 2, 45, 5, 33, 7, 16, 9, 11 ],
+					"bp.Quantizer-MIDI::score" : [ 0.0 ],
+					"bp.Comb Filter::CV2" : [ 16.5 ],
+					"bp.Comb Filter::Feedback" : [ 33.2 ],
+					"bp.Comb Filter::Freq" : [ 2000.0 ],
+					"bp.Comb Filter::FreqMode" : [ 0.0 ],
+					"bp.Comb Filter::Invert" : [ 0.0 ],
+					"bp.Comb Filter::Mix" : [ 16.9 ],
+					"bp.Comb Filter::Offset[2]" : [ 35.213095 ],
+					"bp.Comb Filter::bypass" : [ 1.0 ],
+					"bp.Smooth Delay::Time" : [ 2000.0 ],
+					"bp.Smooth Delay::bypass" : [ 0.0 ],
+					"bp.Smooth Delay[1]::Time" : [ 4070.0 ],
+					"bp.Smooth Delay[1]::bypass" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Audio Rate Pan.amxd",
+							"origin" : "Audio Rate Pan.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Audio Rate Pan.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Audio Rate Pan/Audio Rate Pan.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"coarse-freq" : 57.283466,
+										"fine-freq" : 0.984252,
+										"mod-depth" : 25.19685,
+										"modrate-freq" : 6.850394,
+										"pan-depth" : 48.031498,
+										"phase-coarse" : 9.84252,
+										"phase-fine" : 0.5,
+										"rate-sel" : 0.0,
+										"sync-mult" : 64.753937
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"umenu" : [ 1 ],
+					"vst~" : [  ],
+					"bp.MIDI to Signal::Bend" : [ 0.0 ],
+					"bp.MIDI to Signal::ModWheelActivityLED" : [ 0.0 ],
+					"bp.MIDI to Signal::NotePriority" : [ "Last Note Priority" ],
+					"bp.MIDI to Signal::Triggering" : [ "Retrigger" ],
+					"bp.MIDI to Signal::live.text" : [ 1.0 ],
+					"bp.MIDI to Signal::note" : [ 1.416667 ],
+					"bp.MIDI to Signal::gate" : [ 5 ],
+					"bp.MIDI to Signal::velocity" : [ 4.047619 ],
+					"bp.MIDI to Signal::mod" : [ 5.0 ],
+					"bp.Oscillator::CV2" : [ 0.0 ],
+					"bp.Oscillator::CV3" : [ 0.0 ],
+					"bp.Oscillator::Freq" : [ 261.62558 ],
+					"bp.Oscillator::FreqMode" : [ 1.0 ],
+					"bp.Oscillator::Linear" : [ 0.0 ],
+					"bp.Oscillator::Mute" : [ 0.0 ],
+					"bp.Oscillator::Offset[2]" : [ 0.0 ],
+					"bp.Oscillator::PW" : [ 29.212598 ],
+					"bp.Oscillator::PWM" : [ 44.88189 ],
+					"bp.Oscillator::Waveform" : [ 1.0 ],
+					"bp.VCA::Bypass" : [ 0.0 ],
+					"bp.VCA::Quadrants" : [ 0.0 ],
+					"bp.VCA::Response" : [ 0.0 ],
+					"bp.ADSR::Attack" : [ 1.0 ],
+					"bp.ADSR::Decay" : [ 50.0 ],
+					"bp.ADSR::Legato" : [ 1.0 ],
+					"bp.ADSR::Mute" : [ 0.0 ],
+					"bp.ADSR::Release" : [ 200.0 ],
+					"bp.ADSR::Sustain" : [ 57.834646 ],
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ],
+					"bp.Quantizer-MIDI::PitchActivityLED[1]" : [ 1.0 ],
+					"bp.Quantizer-MIDI::PitchActivityLED[2]" : [ 1.0 ],
+					"bp.Quantizer-MIDI::bypass" : [ 0.0 ],
+					"bp.Quantizer-MIDI::kslider" : [ 0, 68, 2, 45, 5, 33, 7, 16, 9, 11 ],
+					"bp.Quantizer-MIDI::score" : [ 0.0 ],
+					"bp.Comb Filter::CV2" : [ 16.5 ],
+					"bp.Comb Filter::Feedback" : [ 69.303877 ],
+					"bp.Comb Filter::Freq" : [ 2000.0 ],
+					"bp.Comb Filter::FreqMode" : [ 0.0 ],
+					"bp.Comb Filter::Invert" : [ 0.0 ],
+					"bp.Comb Filter::Mix" : [ 60.994488 ],
+					"bp.Comb Filter::Offset[2]" : [ 35.213095 ],
+					"bp.Comb Filter::bypass" : [ 0.0 ],
+					"bp.Smooth Delay::Time" : [ 602.921553 ],
+					"bp.Smooth Delay::bypass" : [ 0.0 ],
+					"bp.Smooth Delay[1]::Time" : [ 2145.952713 ],
+					"bp.Smooth Delay[1]::bypass" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
