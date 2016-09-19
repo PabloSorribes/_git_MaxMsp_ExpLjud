@@ -1,0 +1,27 @@
+tempo == 60 bpm (1000 ms)
+1 takt = 4 s
+4 takt = 16 s
+5 takt = 20 s
+
+ 
+4 st presets
+
+Pre01 - 0-5 takt (20 s)									0:20
+Init interpolation Pre01 -> Pr02 (3 takt = 12 s)		0:32
+Pre02 - 0-5 takt (20 s)									0:52
+Init interpolation Pre01 -> Pr02 (6 takt = 20 s)		1:12
+
+
+1p 3
+1t 6
+ 
+2p 9
+2t 12 
+
+3p 15 
+3t 12 
+
+4p 9 
+4t 6
+
+1p 3
