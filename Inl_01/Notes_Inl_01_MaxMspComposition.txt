@@ -14,13 +14,13 @@ Init interpolation Pre01 -> Pr02 (6 takt = 20 s)		1:12
 
 ---2-takts perioder, 4min---
 1p 2 	8s
-1t 4	16s
+1t 4	16s		takt 3
  
 2p 6	24s
-2t 8 	32s
+2t 8 	32s		takt 7
 
 3p 10 	40s
-3t 8 	32s
+3t 8 	32s		
 
 4p 6 	24s
 4t 4	16s
