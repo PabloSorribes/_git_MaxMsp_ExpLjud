@@ -12,16 +12,29 @@ Pre02 - 0-5 takt (20 s)									0:52
 Init interpolation Pre01 -> Pr02 (6 takt = 20 s)		1:12
 
 
-1p 3
-1t 6
+---2-takts perioder, 4min---
+1p 2 	8s
+1t 4	16s
  
-2p 9
-2t 12 
+2p 6	24s
+2t 8 	32s
 
-3p 15 
-3t 12 
+3p 10 	40s
+3t 8 	32s
 
-4p 9 
-4t 6
+4p 6 	24s
+4t 4	16s
 
-1p 3
+1p 2	8s		[3min, 20s]
+5t 4    16s 	(transition p1 -> p5) 3:36 --> 24s
+
+p5 6	24s 	[4min, 0s]
+endBang!
+
+--Övergripande tonal struktur--
+Pitchas uppåt 
+	p1 = 0
+	p2 = 7 (kvint)
+	p3 = 12
+	p4 = 19 (kvint)
+	p5 = 24
