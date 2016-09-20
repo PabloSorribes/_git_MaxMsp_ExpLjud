@@ -38,3 +38,21 @@ Pitchas uppåt
 	p3 = 12
 	p4 = 19 (kvint)
 	p5 = 24
+	
+
+	
+	
+- Sätt upp mixern så att den är najs hela tiden.
+-- Spara ner json-fil
+
+- add 1 note utefter p1 & t1
+-- pattr-presets för varje tonbyte
+
+- END
+-- Mute:a Pan-mixern. Tail kommer från reverbet efter.
+-- Preset på det dårå.
+
+- Inkludera drone från gamla synthen
+-- preset för det.
+-- kommer in vid mitten av låten (kulmination). Mute:ad innan dess.
+-- Route:a via Pan-mixern för att undvika evighets synth.
