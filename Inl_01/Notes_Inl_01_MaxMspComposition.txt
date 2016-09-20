@@ -56,3 +56,10 @@ Pitchas uppåt
 -- preset för det.
 -- kommer in vid mitten av låten (kulmination). Mute:ad innan dess.
 -- Route:a via Pan-mixern för att undvika evighets synth.
+
+"Ackord" progression
+1. A
+2. D
+3. G
+4. C
+5. F
