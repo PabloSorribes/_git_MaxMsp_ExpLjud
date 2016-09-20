@@ -168,7 +168,24 @@
 					"bp.LFO3::CV" : [ 0.0 ],
 					"bp.LFO3::Frequency" : [ 1.0 ],
 					"bp.LFO3::Mute" : [ 0.0 ],
-					"bp.LFO3::SpectraShape" : [ 0.0 ]
+					"bp.LFO3::SpectraShape" : [ 0.0 ],
+					"bp.Diode Ladder::CV1" : [  ],
+					"bp.Diode Ladder::CV2" : [  ],
+					"bp.Diode Ladder::CV3" : [  ],
+					"bp.Diode Ladder::Freq" : [  ],
+					"bp.Diode Ladder::FreqMode" : [  ],
+					"bp.Diode Ladder::Offset[2]" : [  ],
+					"bp.Diode Ladder::Res" : [  ],
+					"bp.Diode Ladder::power[1]" : [  ],
+					"bp.Ladder::CV1" : [  ],
+					"bp.Ladder::CV2" : [  ],
+					"bp.Ladder::CV3" : [  ],
+					"bp.Ladder::Freq" : [  ],
+					"bp.Ladder::FreqMode" : [  ],
+					"bp.Ladder::Offset[2]" : [  ],
+					"bp.Ladder::Res" : [  ],
+					"bp.Ladder::ResCV" : [  ],
+					"bp.Ladder::power[1]" : [  ]
 				}
 
 			}
@@ -339,7 +356,24 @@
 					"bp.LFO3::CV" : [  ],
 					"bp.LFO3::Frequency" : [  ],
 					"bp.LFO3::Mute" : [  ],
-					"bp.LFO3::SpectraShape" : [  ]
+					"bp.LFO3::SpectraShape" : [  ],
+					"bp.Diode Ladder::CV1" : [  ],
+					"bp.Diode Ladder::CV2" : [  ],
+					"bp.Diode Ladder::CV3" : [  ],
+					"bp.Diode Ladder::Freq" : [  ],
+					"bp.Diode Ladder::FreqMode" : [  ],
+					"bp.Diode Ladder::Offset[2]" : [  ],
+					"bp.Diode Ladder::Res" : [  ],
+					"bp.Diode Ladder::power[1]" : [  ],
+					"bp.Ladder::CV1" : [  ],
+					"bp.Ladder::CV2" : [  ],
+					"bp.Ladder::CV3" : [  ],
+					"bp.Ladder::Freq" : [  ],
+					"bp.Ladder::FreqMode" : [  ],
+					"bp.Ladder::Offset[2]" : [  ],
+					"bp.Ladder::Res" : [  ],
+					"bp.Ladder::ResCV" : [  ],
+					"bp.Ladder::power[1]" : [  ]
 				}
 
 			}
@@ -510,7 +544,24 @@
 					"bp.LFO3::CV" : [  ],
 					"bp.LFO3::Frequency" : [  ],
 					"bp.LFO3::Mute" : [  ],
-					"bp.LFO3::SpectraShape" : [  ]
+					"bp.LFO3::SpectraShape" : [  ],
+					"bp.Diode Ladder::CV1" : [  ],
+					"bp.Diode Ladder::CV2" : [  ],
+					"bp.Diode Ladder::CV3" : [  ],
+					"bp.Diode Ladder::Freq" : [  ],
+					"bp.Diode Ladder::FreqMode" : [  ],
+					"bp.Diode Ladder::Offset[2]" : [  ],
+					"bp.Diode Ladder::Res" : [  ],
+					"bp.Diode Ladder::power[1]" : [  ],
+					"bp.Ladder::CV1" : [  ],
+					"bp.Ladder::CV2" : [  ],
+					"bp.Ladder::CV3" : [  ],
+					"bp.Ladder::Freq" : [  ],
+					"bp.Ladder::FreqMode" : [  ],
+					"bp.Ladder::Offset[2]" : [  ],
+					"bp.Ladder::Res" : [  ],
+					"bp.Ladder::ResCV" : [  ],
+					"bp.Ladder::power[1]" : [  ]
 				}
 
 			}
@@ -681,7 +732,24 @@
 					"bp.LFO3::CV" : [  ],
 					"bp.LFO3::Frequency" : [  ],
 					"bp.LFO3::Mute" : [  ],
-					"bp.LFO3::SpectraShape" : [  ]
+					"bp.LFO3::SpectraShape" : [  ],
+					"bp.Diode Ladder::CV1" : [  ],
+					"bp.Diode Ladder::CV2" : [  ],
+					"bp.Diode Ladder::CV3" : [  ],
+					"bp.Diode Ladder::Freq" : [  ],
+					"bp.Diode Ladder::FreqMode" : [  ],
+					"bp.Diode Ladder::Offset[2]" : [  ],
+					"bp.Diode Ladder::Res" : [  ],
+					"bp.Diode Ladder::power[1]" : [  ],
+					"bp.Ladder::CV1" : [  ],
+					"bp.Ladder::CV2" : [  ],
+					"bp.Ladder::CV3" : [  ],
+					"bp.Ladder::Freq" : [  ],
+					"bp.Ladder::FreqMode" : [  ],
+					"bp.Ladder::Offset[2]" : [  ],
+					"bp.Ladder::Res" : [  ],
+					"bp.Ladder::ResCV" : [  ],
+					"bp.Ladder::power[1]" : [  ]
 				}
 
 			}
@@ -831,7 +899,24 @@
 					"bp.LFO3::CV" : [  ],
 					"bp.LFO3::Frequency" : [  ],
 					"bp.LFO3::Mute" : [  ],
-					"bp.LFO3::SpectraShape" : [  ]
+					"bp.LFO3::SpectraShape" : [  ],
+					"bp.Diode Ladder::CV1" : [  ],
+					"bp.Diode Ladder::CV2" : [  ],
+					"bp.Diode Ladder::CV3" : [  ],
+					"bp.Diode Ladder::Freq" : [  ],
+					"bp.Diode Ladder::FreqMode" : [  ],
+					"bp.Diode Ladder::Offset[2]" : [  ],
+					"bp.Diode Ladder::Res" : [  ],
+					"bp.Diode Ladder::power[1]" : [  ],
+					"bp.Ladder::CV1" : [  ],
+					"bp.Ladder::CV2" : [  ],
+					"bp.Ladder::CV3" : [  ],
+					"bp.Ladder::Freq" : [  ],
+					"bp.Ladder::FreqMode" : [  ],
+					"bp.Ladder::Offset[2]" : [  ],
+					"bp.Ladder::Res" : [  ],
+					"bp.Ladder::ResCV" : [  ],
+					"bp.Ladder::power[1]" : [  ]
 				}
 
 			}
