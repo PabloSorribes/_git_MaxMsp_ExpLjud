@@ -4,7 +4,7 @@ p1								-	TBD 				-	PresetNumber. For debug of parts.
 gatesOffOn						-	Yellow, Black. 		-	Kills all synths (for turning the composition off = 0, on = 1)
 bSpeed1-3						-	Red, White			-	BassInstr_Speed. 1 = 4-delar, 2 = 8-delar, 3 = 16-delar.
 mSpeed1-3						-	LightBlue, White	-	MidInstr_Speed 
-hSpeed1-3						-	BrightGreen, Black	-	HighInstr_Speed 
+hSpeed1-3						-	Yellow, Black	-	HighInstr_Speed 
 
 
 
