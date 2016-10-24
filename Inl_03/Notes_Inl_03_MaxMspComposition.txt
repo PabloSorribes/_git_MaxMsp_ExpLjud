@@ -1,9 +1,10 @@
 NamingConvention / AssetList:
 
-p1								-	PresetNumber. For debug of parts.
-gatesOffOn						-	Kills all synths (for turning the composition off = 0, on = 1)
-
-
+p1								-	TBD 				-	PresetNumber. For debug of parts.
+gatesOffOn						-	Yellow, Black. 		-	Kills all synths (for turning the composition off = 0, on = 1)
+speed1							-	Red, White			-	Normal speed (fjärdedelar)
+speed2							-	LightBlue, White	-	8-delar LightBlue=topLeft in basic Colors. 
+speed3							-	BrightGreen, Black	-	16-delar
 
 
 
