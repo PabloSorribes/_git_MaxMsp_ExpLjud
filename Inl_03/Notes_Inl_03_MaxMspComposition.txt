@@ -2,9 +2,9 @@ NamingConvention / AssetList:
 
 p1								-	TBD 				-	PresetNumber. For debug of parts.
 gatesOffOn						-	Yellow, Black. 		-	Kills all synths (for turning the composition off = 0, on = 1)
-bSpeed1-3						-	Red, White			-	BassInstr_Speed. 1 = 4-delar, 2 = 8-delar, 3 = 16-delar.
-mSpeed1-3						-	LightBlue, White	-	MidInstr_Speed 
-hSpeed1-3						-	Yellow, Black	-	HighInstr_Speed 
+bSpeed1-4						-	Pink, White			-	BassInstr_Speed. 1 = 4-delar, 2 = 8-delar, 3 = 16-delar, 4 = 32-delar.
+mSpeed1-4						-	LightBlue, White	-	MidInstr_Speed 
+hSpeed1-4						-	Yellow, Black	-	HighInstr_Speed 
 
 
 
