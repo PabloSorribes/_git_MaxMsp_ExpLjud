@@ -7,8 +7,8 @@ bSpeed1-4						-	Pink, White			-	BassInstr_Speed. 1 = 4-delar, 2 = 8-delar, 3 = 
 mSpeed1-4						-	LightBlue, White	-	MidInstr_Speed 
 hSpeed1-4						-	Yellow, Black		-	HighInstr_Speed 
 debugPresetNr					-	Shows current preset by outputting a flonum.
-
-
+startBang, endBang				-	for debug (start/stop composition without having to scroll all over the place)
+startToggle						-	darkBlue, White		-	relay the startToggleBang
 
 subPatch[FunctionName]
 
