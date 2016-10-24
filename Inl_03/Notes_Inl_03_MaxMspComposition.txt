@@ -1,0 +1,65 @@
+tempo == 60 bpm (1000 ms)
+1 takt = 4 s
+4 takt = 16 s
+5 takt = 20 s
+
+ 
+4 st presets
+
+Pre01 - 0-5 takt (20 s)									0:20
+Init interpolation Pre01 -> Pr02 (3 takt = 12 s)		0:32
+Pre02 - 0-5 takt (20 s)									0:52
+Init interpolation Pre01 -> Pr02 (6 takt = 20 s)		1:12
+
+
+---2-takts perioder, 4min---
+1p 2 	8s
+1t 4	16s		takt 3
+ 
+2p 6	24s
+2t 8 	32s		takt 7
+
+3p 10 	40s
+3t 8 	32s		
+
+4p 6 	24s
+4t 4	16s
+
+1p 2	8s		[3min, 20s]
+5t 4    16s 	(transition p1 -> p5) 3:36 --> 24s
+
+p5 6	24s 	[4min, 0s]
+endBang!
+
+--Övergripande tonal struktur--
+Pitchas uppåt 
+	p1 = 0
+	p2 = 7 (kvint)
+	p3 = 12
+	p4 = 19 (kvint)
+	p5 = 24
+	
+
+	
+	
+- Sätt upp mixern så att den är najs hela tiden.
+-- Spara ner json-fil
+
+- add 1 note utefter p1 & t1
+-- pattr-presets för varje tonbyte
+
+- END
+-- Mute:a Pan-mixern. Tail kommer från reverbet efter.
+-- Preset på det dårå.
+
+- Inkludera drone från gamla synthen
+-- preset för det.
+-- kommer in vid mitten av låten (kulmination). Mute:ad innan dess.
+-- Route:a via Pan-mixern för att undvika evighets synth.
+
+"Ackord" progression
+1. A
+2. D
+3. G
+4. C
+5. F
