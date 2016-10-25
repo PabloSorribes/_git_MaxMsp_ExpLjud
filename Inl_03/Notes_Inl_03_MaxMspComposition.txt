@@ -14,6 +14,10 @@ volumeBass/Mid/High/Extra		-	TBD					-	control volume of said instrument. Feed w
 panBass/Mid/High/Extra			-	TBD					-	control panoration of said instrument. Feed with a float-value between -1 to 1 (-1 = L, 0 = C, 1 = R).
 
 --- subPatch[FunctionName] ---
+sVolAuto						-	TBD					-	VolumeAutomation. Inlets make different things. 
+															1 = VolUp2Takt,
+															2 = VolDown2Takt
+															3 = 
 subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly.
 
 
