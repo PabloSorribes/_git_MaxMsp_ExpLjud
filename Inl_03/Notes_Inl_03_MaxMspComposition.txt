@@ -9,6 +9,7 @@ hSpeed1-4						-	Yellow, Black		-	HighInstr_Speed
 debugPresetNr					-	Shows current preset by outputting a flonum.
 startBang, endBang				-	for debug (start/stop composition without having to scroll all over the place)
 startToggle						-	darkBlue, White		-	relay the startToggleBang
+loadBang						-	TBD					-	relay the loadBang
 
 subPatch[FunctionName]
 
