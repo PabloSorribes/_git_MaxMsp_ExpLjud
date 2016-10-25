@@ -10,6 +10,7 @@ debugPresetNr					-	Shows current preset by outputting a flonum.
 startBang, endBang				-	for debug (start/stop composition without having to scroll all over the place)
 startToggle						-	darkBlue, White		-	relay the startToggleBang
 loadBang						-	TBD					-	relay the loadBang
+volumeBass/Mid/High/Extra		-	TBD					-	control volume of said instrument. Feed with an int-value in the send-part.
 
 subPatch[FunctionName]
 subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly.
