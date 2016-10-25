@@ -11,6 +11,7 @@ startBang, endBang				-	for debug (start/stop composition without having to scro
 startToggle						-	darkBlue, White		-	relay the startToggleBang
 loadBang						-	TBD					-	relay the loadBang
 volumeBass/Mid/High/Extra		-	TBD					-	control volume of said instrument. Feed with an int-value in the send-part.
+panBass/Mid/High/Extra			-	TBD					-	control panoration of said instrument. Feed with a float-value between -1 to 1 (-1 = L, 0 = C, 1 = R).
 
 subPatch[FunctionName]
 subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly.
