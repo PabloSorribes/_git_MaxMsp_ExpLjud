@@ -12,7 +12,7 @@ startToggle						-	darkBlue, White		-	relay the startToggleBang
 loadBang						-	TBD					-	relay the loadBang
 
 subPatch[FunctionName]
-
+subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly.
 
 
 
