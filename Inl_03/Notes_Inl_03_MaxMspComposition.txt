@@ -23,10 +23,11 @@ subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly
 
 
 
-
-
-
-
+--- VideoNotes ---
+Bass 	-	Ocean
+Mid 	-	Stars/Crystals
+High 	-	Spacey?
+Extra	-	
 
 
 
