@@ -38,6 +38,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 236.700012, 79.0, 61.0, 20.0 ],
+					"style" : "",
+					"text" : "Fade Out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 105.600006, 79.0, 50.0, 20.0 ],
+					"style" : "",
+					"text" : "Fade In"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -45,7 +69,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 242.200012, 262.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 244.600006, 265.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -82,9 +105,10 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 242.200012, 101.0, 30.0, 30.0 ],
-					"style" : ""
+					"style" : "",
+					"tricolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ]
 				}
 
 			}
@@ -97,7 +121,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 110.600006, 101.0, 30.0, 30.0 ],
-					"style" : ""
+					"style" : "",
+					"tricolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
 
 			}
