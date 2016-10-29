@@ -24,13 +24,26 @@ subpatchMasterCounter			-	TBD					-	Needs a startToggleBang to function properly
 
 
 --- VideoNotes ---
-Bass 	-	Ocean
-Mid 	-	Stars/Crystals
-High 	-	Spacey?
-Extra	-	
+Bass 	-	Red 		-	Ocean
+Mid 	-	Blue 		-	Stars/Crystals
+High 	-	Yellow 		-	Spacey?
+Extra	-	DarkGreen	-	
+
+c,c = 640x
+L50 = 350x
+L100 = 110x
+R50 = 930x
+R100 = 1200x
 
 
-
+-- Sources --
+Snorkel - https://youtu.be/7NC_Xk5UNPA
+Night Sky - https://youtu.be/QkFKwFhhxhI
+EarthFromSpace - https://youtu.be/TGBQazOQfoE
+UnderWaterTimelapse - https://youtu.be/Ead3dOZbtWw
+OrionNebulosa	-	https://youtu.be/KOXm7W8f6wo
+Sun 	-	https://youtu.be/6tmbeLTHC_0
+3dOrionNebula - https://youtu.be/GjzTM6xEyJM
 
 "Ackord" progression
 1. A
